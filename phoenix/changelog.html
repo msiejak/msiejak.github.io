@@ -4,21 +4,24 @@
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="changelog.css">
+    <link rel="stylesheet" href="../styles/styles.css">
     <meta charset="UTF-8">
     <meta name='viewport' content='width=device-width'>
     <style> body { font-family: Helvetica, Arial, sans-serif; padding:1em; }
     </style>
     <title>Changelog</title>
+    <link rel="shortcut icon" href="../res/favicon.ico"/>
 </head>
 <body>
+<h2 align="left">MSIEJAK Development</h2>
 <img id="img" style="align-content: baseline" src="https://play-lh.googleusercontent.com/hCekE9u3wac-mFuPHAJtnTHQeVPUf40Luf3Z30C6Bqae0iV_j--HSUT9jKuO84-7Dlzd=s180-rw" alt="App Icon"/>
+
 <h1 id="title">Changelog - Learn ADB and Fastboot</h1>
 <button class="mdc-button mdc-button--outlined" onclick="download()">
     <div class="mdc-button__ripple"></div>
     <span class="mdc-button__label">Download App</span>
 </button>
-<div hidden="true">
+<div hidden="hidden" title="1.5">
     <h2>Release 1.5 Phoenix</h2>
     <p>This update was released on $DATE</p>
     <h3>UI/UX Changes</h3>
@@ -58,7 +61,7 @@
     </ul>
     <hr />
 </div>
-<div id="update-div" class="mdc-card mdc-card--outlined update-div" title="update-div">
+<div class="mdc-card mdc-card--outlined update-div" title="1.4.1">
     <h2>Release 1.4.1 Phoenix</h2>
     <p>This update was released on 11/30/2020</p>
     <h3>Bugfixes</h3>
@@ -68,6 +71,10 @@
     <hr />
 </div>
 
+<footer>
+    <hr />
+    <p>Created by Michael Siejak, 2020. Feedback at <a href="mailto:msiejak.dev@gmail.com">msiejak.dev@gmail.com</a></p>
+</footer>
 </body>
-<script src="main.js"></script>
+<script src="../javascript/main.js"></script>
 </html>

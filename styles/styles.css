@@ -1,0 +1,38 @@
+.update-div {
+    padding-left: 6px;
+    padding-right: 12px;
+    margin-bottom: 12px;
+    margin-top: 6px;
+    background: #F2F2F2;
+    /*background: #ebf2fa;*/
+}
+button {
+    --mdc-theme-primary: #073042;
+    outline-color: #000000;
+    width: 100%;
+    background: white;
+}
+body {
+    /*background: #ebf2fa;*/
+}
+footer {
+    alignment: bottom;
+    text-align: center;
+    width: 100%;
+}
+h1 {
+    color: #073042;
+}
+h2 {
+    color: #073042;
+}
+.float-right {
+    float: left;
+    margin-left: 6px;
+    width: 84%;
+    align-content: center;
+    height: auto;
+}
+.header {
+
+}

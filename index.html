@@ -1,21 +1,58 @@
 <!DOCTYPE html>
-
-
 <html lang="en">
 <head>
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="styles/styles.css">
     <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width'>
     <style> body { font-family: Helvetica, Arial, sans-serif; padding:1em; }
     </style>
-    <meta http-equiv="refresh" content="0; URL='https://sites.google.com/view/msiejak-development'" />
-    <title>Navigation</title>
+    <link rel="shortcut icon" href="res/favicon.ico"/>
+    <title>MSIEJAK Development</title>
 </head>
 <body>
-<p>You should be redirected to another site, if you are not redirected within in a few seconds, click <a href="https://sites.google.com/view/msiejak-development">here</a> </p>
-<ul>
-    <li><a href="changelog.html">Changelog - Learn ADB and Fastboot</a></li>
-    <li><a href="tos.html">TOS - Learn ADB and Fastboot</a></li>
-    <li><a href="privacyPolicy.html">Privacy Policy - Learn ADB and Fastboot</a></li>
-    <li><a href="https://sites.google.com/view/msiejak-development">MSIEJAK Development</a></li>
-</ul>
+<div class="header">
+<h1 id="title" align="center">MSIEJAK Development</h1>
+<h2 align="center">Helpful Apps With a Modern Design</h2>
+    <hr />
+</div>
+<button style="margin-bottom: 6px" class="mdc-button mdc-button--outlined" onclick="contact()">
+    <div class="mdc-button__ripple"></div>
+    <span class="mdc-button__label">Contact</span>
+</button>
+<div id="update-div" class="mdc-card mdc-card--outlined update-div" title="update-div">
+    <h2 style="align-content: center">Learn ADB and Fastboot</h2>
+    <div>
+    <img style="float: left; display: inline; margin-bottom: 6px; margin-right: 6px" src="res/launcher_icon_prototype-playstore.png" width="15%" height="15%" alt="App Icon"/>
+    <div class="float-right">
+        <p  style="align-content: end; float: right; display: inline">This app will teach you how to take control of your device and become an Android power user! With over 20 topics covered, you'll learn how to use adb commands to manage files, change settings, control apps, view device info, and much more from the command line. The app also has a beautiful UI and 8 stunning themes!</p>
+
+    </div></div>
+    <button style="margin-bottom: 6px" class="mdc-button mdc-button--outlined" onclick="changelog()">
+        <div class="mdc-button__ripple"></div>
+        <span class="mdc-button__label">Changelog</span>
+    </button>
+    <button style="margin-bottom: 6px" class="mdc-button mdc-button--outlined" onclick="tos()">
+        <div class="mdc-button__ripple"></div>
+        <span class="mdc-button__label">Terms Of Service</span>
+    </button>
+    <button style="margin-bottom: 6px" class="mdc-button mdc-button--outlined" onclick="privacy()">
+        <div class="mdc-button__ripple"></div>
+        <span class="mdc-button__label">Privacy Policy</span>
+    </button>
+    <button style="margin-bottom: 6px" class="mdc-button mdc-button--unelevated" onclick="download()">
+        <div class="mdc-button__ripple"></div>
+        <span class="mdc-button__label">Download App</span>
+    </button>
+
+</div>
+<footer>
+    <hr />
+    <p>Created by Michael Siejak, 2020. Feedback at <a href="mailto:msiejak.dev@gmail.com">msiejak.dev@gmail.com</a></p>
+</footer>
+
 </body>
+<script src="javascript/main.js"></script>
 </html>

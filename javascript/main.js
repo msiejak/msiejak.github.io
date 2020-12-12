@@ -16,5 +16,5 @@ function contact() {
     location.assign('mailto:msiejak.dev@gmail.com')
 }
 function home() {
-    location.assign('/website/site/index.html')
+    location.assign('../')
 }

@@ -1,7 +1,7 @@
 
 
 function download() {
-    open("https://play.google.com/store/apps/details?id=com.msiejak.msiejak.phoenix");
+    open("https://learnadbandfastboot.page.link/install-open");
 }
 function changelog() {
     location.assign('phoenix/changelog.html');
@@ -17,4 +17,10 @@ function contact() {
 }
 function home() {
     location.assign('../')
+}
+function downloadSensortestLight() {
+    open("https://msiejak.page.link/install_open");
+}
+function changelogSensortestLight() {
+    location.assign('archer/changelog.html');
 }

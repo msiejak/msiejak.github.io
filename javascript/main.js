@@ -24,3 +24,6 @@ function downloadSensortestLight() {
 function changelogSensortestLight() {
     location.assign('archer/changelog.html');
 }
+function nativeTemplates() {
+    open("https://github.com/googleads/googleads-mobile-android-native-templates/pull/17")
+}

@@ -28,5 +28,5 @@ function nativeTemplates() {
     open("https://github.com/googleads/googleads-mobile-android-native-templates/pull/17")
 }
 function thirdPartyCont() {
-    location.assign('third-party-contributions.html');
+    location.assign('open-source-contributions.html');
 }

@@ -16,7 +16,7 @@ function contact() {
     location.assign('mailto:msiejak.dev@gmail.com')
 }
 function home() {
-    location.assign('../')
+    location.assign('../index')
 }
 function downloadSensortestLight() {
     open("https://msiejak.page.link/install_open");
@@ -26,4 +26,7 @@ function changelogSensortestLight() {
 }
 function nativeTemplates() {
     open("https://github.com/googleads/googleads-mobile-android-native-templates/pull/17")
+}
+function thirdPartyCont() {
+    location.assign('third-party-contributions.html');
 }

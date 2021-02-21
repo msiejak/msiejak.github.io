@@ -16,7 +16,7 @@ function contact() {
     location.assign('mailto:msiejak.dev@gmail.com')
 }
 function home() {
-    location.assign('../index')
+    location.assign('../')
 }
 function downloadSensortestLight() {
     open("https://msiejak.page.link/install_open");
